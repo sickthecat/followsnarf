@@ -13,23 +13,6 @@ Here's how the script works:
 3. The script will then attempt to retrieve the accounts followed by the provided Twitter user(s) using the Twitter API v1.1.
 4. If successful, it will display the list of followed accounts for each user.
 
-How to use it in a GitHub README:
-
-1. Save the script in your GitHub repository (e.g., as `followsnarf.py`).
-2. In your GitHub README, explain what the script does and how it can be used.
-3. Provide clear instructions on how to use the script with examples:
-   - Explain the command-line arguments the script requires (target_username or --file and --bearer_token).
-   - Show examples of how to use the script to retrieve the followed accounts for specific Twitter users.
-
-Here's an example of how to include the script in your GitHub README:
-
-```
-## Twitter FollowSnarf
-
-Twitter FollowSnarf is a Python script that allows you to retrieve the accounts followed by a Twitter user using the Twitter API v1.1 with Bearer Token authentication.
-
-### How to use
-
 1. Clone this repository to your local machine.
 2. Install the required libraries: `pip install requests argparse`
 3. Run the script with the following command:
